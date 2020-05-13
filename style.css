@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:whitesmoke;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+    height:400px;
+    width:300px;
+    margin:200px auto 0;
+}
+
+#mySidenav a {
+    position: absolute;
+    left:-80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left:0px;
+}
+
+#about {
+    top: 60px;
+    background-color: #555;
+}
+
+#blog {
+    top: 120px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 180px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 240px;
+    background-color: #4CAF50;
+}
